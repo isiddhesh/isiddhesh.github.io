@@ -1,37 +1,87 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
 
-You can use the [editor on GitHub](https://github.com/isiddhesh/isiddhesh.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
+<body>
+<div class="leftbar">
+ <img src="media/logo.png" alt="Italian Trulli" style="width:200px";>
+</div>
+<div class="rightbar"><div class="blankspace"></div><center>
+<div class="videocontent">
+	<div class="contentheading">
+			<p1> Who Am I? </p1>
+	</div>
+	<p>Multimedia Designer with a demonstrated history of working in the
+		 research industry. Skilled in Cinematography, Video Editing, Direction,
+		  Social Media Management and Graphic Design. Strong at arts and design
+			professional with a Bachelor of Technology - B. Tech focused in Computer
+			Engineering from Vishwakarma Institute Of Technology</p>
+</div><div class="blankspace2"></div>
+<div>
+	<span class="sexy_line"></span>
+</div>
+<div class="videocontent">
+	<div class="contentheading">
+			<p2> Work </p2>
+	</div>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div class="videocontent">
+	<div class="contentheading">
+			<p1> VIT Pune MUN 2019 Closing </p1>
+	</div>
 
-### Markdown
+<video poster="media/closecover.png"controls>
+  <source src="media/vpmclose720.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+<div class="blankspace"></div><center>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+	<div class="videocontent">
+		<div class="contentheading">
+				<p1> VIT Pune MUN 2019 Team </p1>
+		</div>
 
-# Header 1
-## Header 2
-### Header 3
+	<video poster="media/vpmteamcover.png"controls>
+	  <source src="media/vpmteam720.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	</div>
+	<div class="blankspace"></div><center>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+		<div class="videocontent">
+			<div class="contentheading">
+					<p1> Robodroid Workshop Promo </p1>
+			</div>
 
-**Bold** and _Italic_ and `Code` text
+		<video poster="media/robodroidcover.png"controls>
+		  <source src="media/robodroid1080.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		</video>
+		</div>
+		<div class="blankspace"></div><center>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+			<div class="videocontent">
+				<div class="contentheading">
+						<p1> TRF Logo Release (redesign)  </p1>
+				</div>
 
-### Jekyll Themes
+			<video poster="media/trflogolaunchcover.png"controls>
+			  <source src="media/trflogolaunch.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+			</div>
+			<div class="blankspace"></div><center>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/isiddhesh/isiddhesh.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</div></center><div class="blankspace"></div><center>
+</body>
+ <style>img[alt="www.000webhost.com"]{display: none}</style>
+ </html>
