@@ -1,0 +1,129 @@
+/* Style the header */
+
+html{
+  background-color: #080808;
+  color: white;
+  font-family: montserrat;
+
+}
+.myvideo {
+  width: 10%;
+}
+video{
+  padding: none;
+  width: 80%;
+}
+img {
+    -webkit-filter: drop-shadow(5px 5px -5px #000);
+    filter:         drop-shadow(-5px 5px 6px #000);
+}
+
+.leftbar {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #080808;
+  overflow-x: hidden;
+  padding-top: 18%;
+  padding-left: 5%;
+}
+
+.leftbar a {
+  padding: 30%;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.leftbar a:hover {
+  color: #f1f1f1;
+}
+
+.rightbar {
+  margin-left: 30%; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .leftbar {padding-top: 15px;}
+  .leftbar a {font-size: 18px;}
+}
+.contentheading{
+  /*padding-left: 5%;*/
+  font-weight: 800;
+}
+
+.blankspace{
+  padding-top: 20%;
+}
+.blankspace2{
+  padding-top: 5%;
+}
+
+
+p1{
+  font-weight: bold;
+  font-size: ;
+  letter-spacing: 0.3em;
+  line-height: 2.5em;
+  background: -webkit-linear-gradient(#663366, #330066);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sexy_line{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#aaaaaa), to(#080808));
+}
+p2{
+  font-weight: bold;
+  font-size: 40;
+  letter-spacing: 0.3em;
+  line-height: 2.5em;
+  background: -webkit-linear-gradient(#663366, #330066);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: lighter;
+  font-size: medium;
+  letter-spacing: 0.3em;
+  line-height: 2.5em;
+}
+.header {
+ padding: 50px 50px;
+
+}
+.skillstext{
+  font-weight: lighter;
+  font-size: medium;
+  letter-spacing: 0.3em;
+  line-height: 2.5em
+}
+
+/* Page content */
+.content {
+ padding: 0px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+ position: fixed;
+ top: 0;
+ width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+ padding-top: 100px;
+}
